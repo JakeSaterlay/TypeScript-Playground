@@ -1,0 +1,18 @@
+{
+  "name": "ts-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "day1": "node --loader ts-node/esm day1/day1.ts",
+    "day2": "node --loader ts-node/esm day2/day2.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
